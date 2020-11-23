@@ -61,12 +61,12 @@ os = platform.system()
 
 if os == "Windows":
     system("cls")
-    system("title Stock Sniper by Loveless#2020")
+    system("title StockWatcher by Loveless#2020")
 else:
     system("clear")
     print(chr(27) + "[2J")
 
-print(Fore.RED + """Stock Sniper by Loveless#2020 - v. 2""" + Fore.RESET)
+print(Fore.RED + """StockWatcher by Loveless#2020 - v. 2""" + Fore.RESET)
 
 bot = commands.Bot(command_prefix=".", self_bot=True)
 ready = False
