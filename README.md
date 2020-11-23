@@ -10,8 +10,8 @@ Right click in the folder where you have `stockv2.py` and make a file named `tok
 In your folder, open command prompt by clicking the bar, write `cmd` and click enter.                
 When in the opened command prompt window, write `py stockv2.py` or alternatively `python stockv2.py`             
 
-Edit `stockv2.py` to fit your servers - insert server id's in the `server_ids` list.
-I've just inserted two that I used it on, which worked perfectly fine.
+Edit `stockv2.py` to fit your servers - insert server id's in the `server_ids` list.                   
+I've just inserted two that I used it on, which worked perfectly fine.                             
 I'd recommend adding a small delay so you don't look that suspicious, and possibly adding an array of random texts.
       
 
