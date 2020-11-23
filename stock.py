@@ -1,4 +1,5 @@
 import os
+import json
 import time
 import random
 import requests
@@ -6,7 +7,11 @@ import threading
 from colorama import Style, Fore
 
 os.system("cls")
-token = "REDACTED"
+data = {}
+
+with open('token.json') as f:
+    data = json.load(f)
+token = data['token']
 server_ids = ["743007671724277781", "763479037497966593"]
 servers = []
 api = "https://discord.com/api/v8"
